@@ -1,0 +1,9 @@
+hr{
+    width: 80%;
+    border-color: #ffffff;
+}
+@media (max-width: 768px) {
+    hr{
+        display: none;
+    }
+}

@@ -1,0 +1,35 @@
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+
+}
+.cart-item .image-container{
+    width: 20%;
+}
+.cart-item .image-container img{
+    width: 100% !important;
+    border-radius: 8px;
+}
+.cart-item .detail{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+ .detail p{
+    margin: 0;
+    font-size: 17px;
+    color: #888;
+    margin-top: 10px;
+}
+.cart-item-price{
+    color: black;
+    font: size 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+.cart-item-delete{
+    font-size: 19px;
+    margin-left: 10px;
+}
