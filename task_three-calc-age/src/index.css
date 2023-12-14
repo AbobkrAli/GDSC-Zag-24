@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* Add other global styles here */
+}
+/* colors */
+.purble{
+    color:hsl(259, 100%, 65%);
+}
+.light-red{
+    color: hsl(0, 100%, 67%);
+}
+.white{
+    color: White;
+}
+.off-white{
+    color:hsl(0, 0%, 94%);
+}
+.light-grey{
+    color:hsl(0, 0%, 86%);
+}
+.off-black{
+    color: hsl(0, 0%, 8%);
+}
+.rounded-12-rem{
+    border-bottom-right-radius: 12rem !important;
+}
+.hr{
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
